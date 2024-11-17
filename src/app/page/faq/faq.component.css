@@ -1,0 +1,46 @@
+/* Centrar el título */
+h1 {
+    padding: 5px;
+    text-align: center; /* Centra el texto */
+    font-size: 2.5rem; /* Tamaño del texto */
+    color: #007bff; /* Color del texto */
+    margin-bottom: 1rem; /* Espacio debajo del título */
+}
+
+/* Estilos para el acordeón */
+.accordion {
+    max-width: 800px; /* Ancho máximo del acordeón */
+    margin: 0px auto 50px auto; /* Centrar el acordeón */
+    border: 1px solid #dee2e6; /* Bordes sutiles */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilos para los elementos del acordeón */
+.accordion-item {
+    border-bottom: 1px solid #dee2e6; /* Bordes entre los elementos */
+}
+
+.accordion-item:last-child {
+    border-bottom: none; /* Eliminar borde en el último elemento */
+}
+
+/* Estilos para los botones del acordeón */
+.accordion-button {
+    background-color: #f8f9fa; /* Color de fondo del botón */
+    color: #333; /* Color del texto del botón */
+    font-weight: bold; /* Texto en negrita */
+    padding: 1rem; /* Espacio interior del botón */
+}
+
+.accordion-button:not(.collapsed) {
+    color: #007bff; /* Color del texto cuando está expandido */
+    background-color: #e9ecef; /* Color de fondo cuando está expandido */
+}
+
+/* Estilos para el contenido del acordeón */
+.accordion-body {
+    font-size: 1.1rem; /* Tamaño del texto */
+    color: #555; /* Color del texto */
+    padding: 1rem; /* Espacio interior */
+    background-color: #ffffff; /* Color de fondo del contenido */
+}

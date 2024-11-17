@@ -1,0 +1,36 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #0d6efd;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-size: 50%, 50%;
+}
+
+.carousel-control-prev-icon::before {
+  
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 20px;
+  color: white;
+}
+
+.carousel-control-next-icon::before {
+ 
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 20px;
+  color: white;
+}
+
+h1{
+  padding: 5px;
+  text-align: center; /* Centra el texto */
+  font-size: 2.5rem; /* Tamaño del texto */
+  color: #007bff; /* Color del texto */
+  margin-bottom: 1rem; /* Espacio debajo del título */
+}
+
+img{
+  width: 200px;
+}

@@ -1,0 +1,167 @@
+    /* Estilos generales */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Estilos para el logo y encabezado */
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+    }
+
+    .logo .title {
+      color: white;
+      font-size: 24px;
+      margin: 0;
+    }
+
+    .logo .title a {
+      color: white;
+      text-decoration: none;
+    }
+
+    /* Estilos para el menú */
+    .navbar {
+      padding: 10px 80px;
+      background-color: #007bff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-nav .nav-link {
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .navbar-nav .nav-link:hover {
+      background-color: #0056b3;
+      border-radius: 5px;
+    }
+
+    .dropdown-menu {
+      background-color: white;
+    }
+
+    .dropdown-item {
+      color: #333;
+    }
+
+    .dropdown-item:hover {
+      color: white;
+      background-color: #007bff;
+    }
+
+    /* Estilos para el menú en pantallas pequeñas */
+    @media (max-width: 768px) {
+      .navbar-nav {
+        flex-direction: column;
+        width: 100%;
+        background-color: #007bff;
+      }
+
+      .navbar-collapse {
+        background-color: #007bff;
+        padding: 10px 0;
+      }
+
+      .nav-item {
+        width: 100%;
+      }
+
+      .nav-link {
+        padding: 15px;
+        text-align: center;
+        border-bottom: 1px solid #1565C0;
+      }
+
+      .nav-item:last-child .nav-link {
+        border-bottom: none;
+      }
+
+      .dropdown-menu {
+        position: static;
+        width: 100%;
+      }
+    }
+
+.footer {
+  background-color: #007bff; /* Color de fondo del footer */
+  color: #fff; /* Color del texto */
+   
+}
+
+.footer h5 {
+  padding: 2rem 0 0 0;
+  font-size: 1.5rem; /* Tamaño de fuente para encabezados */
+  margin-bottom: 1rem; /* Espaciado inferior */
+}
+
+.footer p {
+  margin-bottom: 1rem; /* Espaciado inferior para párrafos */
+}
+
+.footer .row {
+  margin-bottom: 2rem; /* Espaciado inferior entre columnas */
+}
+
+.footer input[type="text"],
+.footer input[type="email"],
+.footer textarea {
+  width: 100%; /* Ancho completo */
+  padding: 0.75rem; /* Espaciado interno */
+  border-radius: 0.5rem; /* Bordes redondeados */
+  border: 1px solid #ced4da; /* Borde de color */
+  margin-bottom: 1rem; /* Espaciado inferior */
+}
+
+.footer button {
+  background-color: #28a745; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none; /* Sin borde */
+  padding: 0.75rem; /* Espaciado interno */
+  border-radius: 0.5rem; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  transition: background-color 0.3s; /* Transición suave para el color de fondo */
+}
+
+.footer button:hover {
+  background-color: #218838; /* Color en hover */
+}
+
+/* Estilo para la parte inferior del footer */
+.footer-bottom {
+  background-color: #0056b3; /* Color de fondo para la parte inferior */
+  padding: 1rem; /* Espaciado interno */
+  text-align: center; /* Centra el texto */
+}
+
+.footer-bottom p {
+  margin: 0; /* Sin márgenes */
+  font-size: 0.9rem; /* Tamaño de fuente más pequeño */
+}
+
+/* Iconos */
+.footer i {
+  margin-right: 0.5rem; /* Espaciado entre el icono y el texto */
+}
+
+/* Responsividad adicional */
+@media (max-width: 576px) {
+  .footer .container {
+      flex-direction: column; /* Apilar columnas en el pie de página */
+      align-items: center; /* Centrar elementos */
+  }
+
+  .footer .col-md-4 {
+      width: 100%; /* Usar todo el ancho */
+      text-align: center; /* Centrar texto */
+  }
+}

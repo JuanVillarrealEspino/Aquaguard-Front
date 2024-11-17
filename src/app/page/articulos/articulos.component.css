@@ -1,0 +1,47 @@
+.row .card h5{
+    font-size: 1.2rem;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: black; /* Asegura que el texto siga siendo legible */
+}
+
+.row .card p{
+    
+    padding: 5px;
+    text-align: justify;
+}
+.card {
+    transition: transform 0.3s ease-in-out;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  background-color: #ffffff;
+  color:rgb(16, 138, 175) ;   
+  transform: scale(1.05);
+}
+.row h5 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.row h5 a:hover{
+    color: #007bff;
+}
+.container{
+   padding: 0 150px; 
+}
+
+img{
+    height: 200px;
+}
+
+h1 {
+    padding: 5px;
+    text-align: center; /* Centra el texto */
+    font-size: 2.5rem; /* Tamaño del texto */
+    color: #007bff; /* Color del texto */
+    margin-bottom: 1rem; /* Espacio debajo del título */
+}

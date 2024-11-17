@@ -1,0 +1,48 @@
+.conservacion-agua {
+    padding: 0.5rem 0; /* Espaciado superior e inferior */
+    background-color: #f0f8ff; /* Color de fondo */
+}
+
+.conservacion-agua h2 {
+    
+    text-align: center; /* Centra el texto */
+    font-size: 2.5rem; /* Tamaño del texto */
+    color: #007bff; /* Color del texto */
+    margin-bottom: 1rem; /* Espacio debajo del título */
+}
+
+
+.content {
+    display: flex; /* Usar flexbox para alinear el contenido */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: space-around; /* Espacio entre los elementos */
+    flex-wrap: wrap; /* Permitir que los elementos se ajusten en pantallas pequeñas */
+}
+
+.text {
+    flex: 1; /* Toma el espacio restante */
+    max-width: 600px; /* Ancho máximo para el texto */
+    margin-right: 2rem; /* Espacio a la derecha */
+}
+
+.text h3 {
+    font-size: 1.8rem; /* Tamaño de los subtítulos */
+    color: #333; /* Color del texto */
+    margin-top: 1.5rem; /* Espacio superior */
+}
+
+.text p, .text ul {
+    font-size: 1.1rem; /* Tamaño del texto */
+    color: #555; /* Color del texto */
+}
+
+.image {
+    flex: 1; /* Toma el espacio restante */
+    max-width: 600px; /* Ancho máximo para la imagen */
+}
+
+.image img {
+    width: 100%; /* Hacer que la imagen sea responsiva */
+    height: auto; /* Mantener la proporción de la imagen */
+    border-radius: 5px; /* Bordes redondeados */
+}
